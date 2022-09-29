@@ -9,7 +9,7 @@ variable "region" {
 }
 variable "name" {
   default = "myrole"
-  type        = "string"
+  type        = string
   description = "The name of the role. "
 }
 variable "principal_arns" {
